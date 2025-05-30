@@ -18,8 +18,6 @@ class MainApp extends StatelessWidget {
         colorSchemeSeed: Colors.greenAccent,
         brightness: Brightness.dark,
         textTheme: GoogleFonts.robotoTextTheme(ThemeData.dark().textTheme),
-        // brightness: Brightness.light,
-        // textTheme: GoogleFonts.robotoTextTheme(),
       ),
       home: const BerandaScreen(),
     );
